@@ -9,7 +9,7 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/sayiGoster"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/arkaPlan"
@@ -32,7 +32,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/btnAC"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -45,34 +45,37 @@
 
             <Button
 
-                android:id="@+id/button2"
+                android:id="@+id/btnArtiEksi"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
 
+                android:onClick="btnSayiTik"
                 android:text="+/-"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnFaiz"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
 
+                android:onClick="btnOnTik"
                 android:text="%"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btnBol"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
                 android:hapticFeedbackEnabled="false"
+                android:onClick="btnOnTik"
                 android:text="/"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
@@ -83,48 +86,52 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btn7"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
+                android:onClick="btnSayiTik"
                 android:text="7"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/btn8"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
+                android:onClick="btnSayiTik"
                 android:text="8"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/btn9"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
 
+                android:onClick="btnSayiTik"
                 android:text="9"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/btnVur"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
 
+                android:onClick="btnOnTik"
                 android:text="X"
-                android:textColor="@color/black"
 
+                android:textColor="@color/black"
                 android:textSize="24sp" />
         </TableRow>
 
@@ -134,49 +141,53 @@
             android:background="@drawable/button_kenarlik">
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/btn4"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
 
+                android:onClick="btnSayiTik"
                 android:text="4"
-                android:textColor="@color/black"
 
+                android:textColor="@color/black"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/btn5"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
 
+                android:onClick="btnSayiTik"
                 android:text="5"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/btn6"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
 
+                android:onClick="btnSayiTik"
                 android:text="6"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/btnCikar"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
 
+                android:onClick="btnOnTik"
                 android:text="-"
-                android:textColor="@color/black"
 
+                android:textColor="@color/black"
                 android:textSize="24sp" />
         </TableRow>
 
@@ -187,49 +198,53 @@
 
 
             <Button
-                android:id="@+id/button14"
+                android:id="@+id/btn1"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
+                android:onClick="btnSayiTik"
                 android:text="1"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button15"
+                android:id="@+id/btn2"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
 
                 android:background="@drawable/button_kenarlik"
 
+                android:onClick="btnSayiTik"
                 android:text="2"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button16"
+                android:id="@+id/btn3"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
 
+                android:onClick="btnSayiTik"
                 android:text="3"
-                android:textColor="@color/black"
 
+                android:textColor="@color/black"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button17"
+                android:id="@+id/btnTopla"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
 
+                android:onClick="btnOnTik"
                 android:text="+"
-                android:textColor="@color/black"
 
+                android:textColor="@color/black"
                 android:textSize="24sp" />
         </TableRow>
 
@@ -240,19 +255,20 @@
 
 
             <Button
-                android:id="@+id/button18"
+                android:id="@+id/btn0"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_kenarlik"
 
-                android:text="0"
+                android:onClick="btnSayiTik"
 
+                android:text="0"
                 android:textColor="@color/black"
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button19"
+                android:id="@+id/btnVer"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
@@ -262,7 +278,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button20"
+                android:id="@+id/btnNokta"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
@@ -273,11 +289,12 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnEs"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:background="@color/arkaPlan"
+                android:onClick="btnEsittirTik"
                 android:text="="
                 android:textColor="@color/white"
                 android:textSize="24sp" />
